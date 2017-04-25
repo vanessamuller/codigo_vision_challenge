@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title></title>
+  <link rel="stylesheet" href="normalize.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+  <link rel="stylesheet" href="stylesheet.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+</head>
+<body>
+
+    <div class=" page-side offcanvas">
+      <div class="sidebar-items">
+        <i class="fa fa-tachometer" aria-hidden="true"></i>
+        <p class="sidebar-names">Dashboard</p>
+      </div>
+
+      <div class="sidebar-items accordion">
+        <i class="fa fa-globe" aria-hidden="true"></i>
+        <p class="sidebar-names">Purchasing</p>
+        <i class="fa fa-chevron-circle-down sidebar-arrow" aria-hidden="true"></i>
+      </div>
+
+      <div class="panel">
+        <ul class="panel-list">
+          <li><i class="fa fa-file-text-o" aria-hidden="true"></i>Purchase Contracts</li>
+          <li><i class="fa fa-id-badge" aria-hidden="true"></i>Suppliers</li>
+        </ul>
+      </div>
+
+      <div class="sidebar-items">
+        <i class="fa fa-ship" aria-hidden="true"></i>
+        <p class="sidebar-names">Shipping</p>
+      </div>
+
+      <div class="sidebar-items accordion">
+        <i class="fa fa-cubes" aria-hidden="true"></i>
+        <p class="sidebar-names">Inventory</p>
+        <i class="fa fa-chevron-circle-down sidebar-arrow" aria-hidden="true"></i>
+      </div>
+
+      <div class="panel">
+        <ul class="panel-list">
+          <li><i class="fa fa-cubes" aria-hidden="true"></i>Category 1</li>
+          <li><i class="fa fa-cubes" aria-hidden="true"></i>Category 2</li>
+        </ul>
+      </div>
+
+      <div class="sidebar-items accordion">
+        <i class="fa fa-tags" aria-hidden="true"></i>
+        <p class="sidebar-names">Sales</p>
+        <i class="fa fa-chevron-circle-down sidebar-arrow" aria-hidden="true"></i>
+      </div>
+
+      <div class="panel">
+        <ul class="panel-list">
+          <li><i class="fa fa-user-circle-o" aria-hidden="true"></i>Person 1</li>
+          <li><i class="fa fa-user-circle-o" aria-hidden="true"></i>Person 2</li>
+        </ul>
+      </div>
+
+      <div class="user">
+        <i class="fa fa-user-circle-o" id="user-id" aria-hidden="true"></i>
+        <div class="user-desc">
+          <div><p>John smith</p></div>
+          <div>
+          <i class="fa fa-pencil-square-o" aria-hidden="true"></i>
+          <i class="fa fa-sign-in" aria-hidden="true"></i>
+        </div>
+      </div>
+
+      </div>
+
+    </div>
+    <div class="page-wrap page-content">
+      <div class="topbar ">
+        <button class="offcanvas-toggle topbar-btn btn-default" >&#9776;</button>
+        <input type="text" class="form-control" placeholder= "&#xf002; Search", style="font-family:Arial, FontAwesome">
+        <button class="topbar-btn btn-default" ><i class="fa fa-cog" aria-hidden="true"></i></button>
+      </div>
+
+      <div class="second-line ">
+        <h3>PC 1001 |  Acme Stock Company &nbsp; <button type="button" class="btn btn-success" name="button">Open</button></h3>
+
+        <div class="icons">
+          <i class="fa fa-pencil i-circle" aria-hidden="true"></i>
+          <i class="fa fa-check i-circle" aria-hidden="true"></i>
+          <i class="fa fa-times i-circle" aria-hidden="true"></i>
+          <i class="fa fa-print i-circle" aria-hidden="true"></i>
+          <i class="fa fa-envelope i-circle" aria-hidden="true"></i>
+        </div>
+      </div>
+
+      <div class="tables-1">
+        <div class="inner-tables">
+          <table>
+          <tr>
+            <th colspan ="2"><i class="fa fa-list list-icon" aria-hidden="true"></i>Details</th>
+          </tr>
+          <tr>
+            <td>Date:</td>
+            <td>Dec 13, 2016</td>
+          </tr>
+          <tr>
+            <td>Quantity:</td>
+            <td>10FCL</td>
+          </tr>
+          <tr>
+            <td>Price:</td>
+            <td>$1,250/MT</td>
+          </tr>
+          <tr>
+            <td>Shipping Terms:</td>
+            <td>FOB</td>
+          </tr>
+          <tr>
+            <td>Destination:</td>
+            <td>East Coast</td>
+          </tr>
+          <tr>
+            <td>Pay Terms:</td>
+            <td>Cash Against Documents</td>
+          </tr>
+        </table>
+      </div>
+
+        <div class="inner-tables">
+          <table class="product">
+          <tr>
+            <th colspan ="2"><i class="fa fa-list list-icon" aria-hidden="true"></i>Product</th>
+          </tr>
+          <tr>
+            <td>Origin:</td>
+            <td>Vietnamese</td>
+          </tr>
+          <tr>
+            <td>Grade:</td>
+            <td>Organic</td>
+          </tr>
+          <tr>
+            <td>Color:</td>
+            <td>LA</td>
+          </tr>
+          <tr>
+            <td>True Source</td>
+            <td>Yes</td>
+          </tr>
+          <tr>
+            <td>Non-GMO:</td>
+            <td>No</td>
+          </tr>
+        </table>
+      </div>
+      </div>
+    </div>
+
+
+
+
+
+
+</body>
+</html>
