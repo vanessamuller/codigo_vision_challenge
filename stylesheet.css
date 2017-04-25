@@ -188,7 +188,7 @@ button.btn.btn-success{
 .list-icon{
   /*font-size: 54px;*/
   border-radius: 50%;
-  border: 1px solid #70A9D8;
+  /*border: 1px solid #70A9D8;*/
   padding: 8px;
   background-color: #70A9D8;
   color:white;
@@ -202,8 +202,6 @@ tr{
 th,td{padding:1em;
 border: 1px solid #F8F8F8;}
 
-/*td{
-  width: 50%;}*/
 
 .tables-1{
   display:flex;
@@ -221,4 +219,35 @@ table{
 .inner-tables{
   padding:1em;
   width:100%;
+}
+
+.position-header{
+  display:flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.input-position{
+  width:2em;
+}
+
+.right-items{
+  display:flex;
+}
+
+#grey-back{
+  background-color: #F2F2F2;
+}
+
+#grey-font{
+  color:#B9B9B9;
+}
+
+#orange{
+  background-color: #D44545;
+  /*border: 1px solid #D44545;*/
+}
+
+#green{
+  background-color: #8FC438;
 }
