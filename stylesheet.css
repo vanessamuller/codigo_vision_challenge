@@ -196,10 +196,11 @@ button.btn.btn-success{
 }
 
 tr{
-  height: 4em;
+  height: 3.5em;
 }
 
-th,td{padding:2em;}
+th,td{padding:1em;
+border: 1px solid #F8F8F8;}
 
 /*td{
   width: 50%;}*/
