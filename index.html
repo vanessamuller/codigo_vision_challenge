@@ -98,7 +98,7 @@
       </div>
 
       <div class="tables-1">
-        <div class="inner-tables">
+        <div class="inner-tables" id="details-tab">
           <table>
             <tr>
               <th colspan ="2"><i class="fa fa-list list-icon" aria-hidden="true"></i>Details</th>
@@ -130,7 +130,7 @@
           </table>
         </div>
 
-        <div class="inner-tables">
+        <div class="inner-tables" id="product-tab">
           <table class="product">
             <tr>
               <th colspan ="2"><i class="fa fa-list list-icon" aria-hidden="true"></i>Product</th>
@@ -158,7 +158,7 @@
           </table>
         </div>
 
-        <div class="inner-tables">
+        <div class="inner-tables" id="int-tab">
           <table class="int-notes">
             <tr>
               <th><i class="fa fa-file-text-o list-icon" id="orange" aria-hidden="true"></i>Internal Notes</th>
@@ -169,7 +169,7 @@
           </table>
         </div>
 
-        <div class="inner-tables">
+        <div class="inner-tables" id="pos-tab">
           <table class="position">
             <tr>
               <th colspan="3">
@@ -177,16 +177,16 @@
                 <div><i class="fa fa-pie-chart list-icon" id="green" aria-hidden="true"></i>Position</div>
                 <div class="right-items">
                   <p>Total &nbsp;
-                  <input type="text" name="" value="10" class="input-position"></p>
+                  <input type="text" name="" value="10" class="input-position">&nbsp;</p>
                   <p>Shipped &nbsp;
-                  <input type="text" name="" value="4" class="input-position"></p>
+                  <input type="text" name="" value="4" class="input-position">&nbsp;</p>
                   <p>Remaining &nbsp;
-                  <input type="text" name="" value="6" class="input-position"></p>
+                  <input type="text" name="" value="6" class="input-position">&nbsp;</p>
                 </div>
               </div>
               </th>
             </tr>
-            <tr id="grey-back">
+            <tr class="grey-back">
               <td>Date</th>
               <td>Quantity</th>
               <td>Balance</th>
@@ -214,7 +214,7 @@
           </table>
         </div>
 
-        <div class="inner-tables">
+        <div class="inner-tables" id="add-tab">
           <table class="add-det">
             <tr>
               <th><i class="fa fa-file-text-o list-icon" id="green" aria-hidden="true"></i>Additional Details</th>
@@ -224,10 +224,106 @@
             </tr>
           </table>
         </div>
+
+        <div class="inner-tables" id="container-tab">
+          <table class="containers">
+            <tr>
+              <th colspan="10">
+                <div class="container-header">
+                  <div><i class="fa fa-cubes list-icon" id="green" aria-hidden="true"></i>Containers</div>
+                  <div class="dropdown">
+                    With Selection: &nbsp; <button class="btn btn-secondary dropdown-toggle" type="button" data-toggle="dropdown" >
+                      Dropdown button<span class="caret"></span></button>
+                    </button>
+                    <ul class="dropdown-menu">
+                      <li><a href="#">HTML</a></li>
+                      <li><a href="#">CSS</a></li>
+                      <li><a href="#">JavaScript</a></li>
+                    </ul>
+
+                    <button class="btn btn-secondary" type="button" name="button">Apply</button>
+                  </div>
+                </div>
+              </th>
+            </tr>
+            <tr class="grey-back">
+              <td><div class="checkbox">
+                <label><input type="checkbox" value=""></label>
+              </div></td>
+              <td></td>
+              <td>ID</td>
+                <td>Lot No.</td>
+                <td>Container ID</td>
+                <td>Status</td>
+                <td>Shipment</td>
+                <td>ETD</td>
+                <td>ETA</td>
+                <td>Destinations</td>
+            </tr>
+            <tr>
+              <td><div class="checkbox">
+                <label><input type="checkbox" value="" checked></label>
+              </div></td>
+              <td><i class="fa fa-pencil" aria-hidden="true"></i>
+              </td>
+              <td>1001-01</td>
+              <td>XXXXXX</td>
+              <td>GLDU 2312328</td>
+              <td>In Transit</td>
+              <td>MSK Alamaba 3265</td>
+              <td>1-13-17</td>
+              <td>2-13-17</td>
+              <td>East Coast</td>
+            </tr>
+            <tr>
+              <td><div class="checkbox">
+                <label><input type="checkbox" value=""></label>
+              </div></td>
+              <td><i class="fa fa-pencil" aria-hidden="true"></i>
+              </td>
+              <td>1001-02</td>
+              <td>XXXXXX</td>
+              <td>GLDU 2312328</td>
+              <td>In Transit</td>
+              <td>MSK Alamaba 3266</td>
+              <td>2-13-17</td>
+              <td>3-15-17</td>
+              <td>East Coast</td>
+            </tr>
+            <tr>
+              <td><div class="checkbox">
+                <label><input type="checkbox" value=""></label>
+              </div></td>
+              <td><i class="fa fa-pencil" aria-hidden="true"></i>
+              </td>
+              <td>1001-03 <i class="fa fa-exclamation-triangle" aria-hidden="true"></i></td>
+              <td>XXXXXX</td>
+              <td>GLDU 2312328</td>
+              <td>In Transit</td>
+              <td>MSK Alamaba 5674</td>
+              <td>3-13-17</td>
+              <td>4-12-17</td>
+              <td>East Coast</td>
+            </tr>
+            <tr>
+              <td><div class="checkbox">
+                <label><input type="checkbox" value=""></label>
+              </div></td>
+              <td><i class="fa fa-pencil" aria-hidden="true"></i>
+              </td>
+              <td>1001-04</td>
+              <td></td>
+              <td></td>
+              <td>Unshipped</td>
+              <td></td>
+              <td>Expected: May 2017</td>
+              <td>Expected: June 2017</td>
+              <td>East Coast</td>
+            </tr>
+          </table>
+        </div>
       </div>
     </div>
-
-
 
 
 

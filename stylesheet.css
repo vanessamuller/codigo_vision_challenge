@@ -235,7 +235,7 @@ table{
   display:flex;
 }
 
-#grey-back{
+.grey-back{
   background-color: #F2F2F2;
 }
 
@@ -250,4 +250,22 @@ table{
 
 #green{
   background-color: #8FC438;
+}
+
+.btn-secondary{
+  background-color: white;
+  border: 1px solid #C6C6C8;
+}
+
+.container-header{
+  display: flex;
+    justify-content: space-between;
+}
+
+.containers{
+  overflow-x:auto;
+}
+
+#container-tab{
+  overflow-x:auto;
 }
